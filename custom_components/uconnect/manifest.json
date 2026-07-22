@@ -19,7 +19,7 @@
         "custom_components.uconnect"
     ],
     "requirements": [
-        "py-uconnect @ git+https://github.com/KevinLWorthington/py-uconnect@botocore-fix"
+        "py-uconnect @ git+https://github.com/KevinLWorthington/py-uconnect@botofix-3"
     ],
     "version": "0.5.2-dev"
 }
