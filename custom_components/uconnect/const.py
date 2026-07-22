@@ -1,6 +1,6 @@
 """Constants for the Uconnect integration"""
 
-from py_uconnect.brands import (
+from .py_uconnect.brands import (
     ALFA_ROMEO_ASIA,
     ALFA_ROMEO_EU,
     ALFA_ROMEO_US_CANADA,

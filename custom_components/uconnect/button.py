@@ -13,8 +13,8 @@ from homeassistant.components.button import (
     ButtonEntity,
 )
 
-from py_uconnect.client import Vehicle
-from py_uconnect.command import (
+from .py_uconnect.client import Vehicle
+from .py_uconnect.command import (
     COMMAND_CHARGE,
     COMMAND_DEEP_REFRESH,
     COMMAND_LIGHTS,

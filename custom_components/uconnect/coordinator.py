@@ -5,10 +5,10 @@ from __future__ import annotations
 from datetime import timedelta
 import logging
 
-from py_uconnect import Client
-from py_uconnect.command import Command
-from py_uconnect.api import CHARGING_LEVELS_BY_NAME
-from py_uconnect.brands import BRANDS as BRANDS_BY_NAME
+from .py_uconnect import Client
+from .py_uconnect.command import Command
+from .py_uconnect.api import CHARGING_LEVELS_BY_NAME
+from .py_uconnect.brands import BRANDS as BRANDS_BY_NAME
 
 from homeassistant.config_entries import ConfigEntry
 from homeassistant.const import (

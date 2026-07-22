@@ -4,7 +4,7 @@ from homeassistant.core import ServiceCall, callback, HomeAssistant
 from homeassistant.exceptions import HomeAssistantError
 from homeassistant.helpers import device_registry
 
-from py_uconnect.command import (
+from .py_uconnect.command import (
     COMMAND_CABIN_VENTILATION,
     COMMAND_CHARGE,
     COMMAND_CHARGE_V4,

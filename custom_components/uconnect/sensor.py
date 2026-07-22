@@ -6,7 +6,7 @@ from typing import Final, Callable, Any
 from dataclasses import dataclass
 from datetime import datetime
 
-from py_uconnect.client import Vehicle
+from .py_uconnect.client import Vehicle
 
 from homeassistant.components.sensor import (
     SensorDeviceClass,

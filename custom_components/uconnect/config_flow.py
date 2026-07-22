@@ -20,8 +20,8 @@ from homeassistant.core import HomeAssistant, callback
 from homeassistant.config_entries import ConfigFlowResult
 from homeassistant.exceptions import HomeAssistantError
 
-from py_uconnect.api import API
-from py_uconnect.brands import BRANDS as BRANDS_BY_NAME
+from .py_uconnect.api import API
+from .py_uconnect.brands import BRANDS as BRANDS_BY_NAME
 
 from .const import (
     BRANDS,

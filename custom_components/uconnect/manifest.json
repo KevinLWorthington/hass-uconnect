@@ -18,8 +18,5 @@
         "py_uconnect",
         "custom_components.uconnect"
     ],
-    "requirements": [
-        "py-uconnect @ git+https://github.com/KevinLWorthington/py-uconnect@botofix-3"
-    ],
-    "version": "0.5.2-dev"
+    "version": "0.5.5-dev"
 }

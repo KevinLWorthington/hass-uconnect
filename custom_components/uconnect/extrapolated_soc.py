@@ -25,8 +25,8 @@ from homeassistant.helpers.event import (
 )
 from homeassistant.helpers.restore_state import RestoreEntity
 
-from py_uconnect.client import Vehicle
-from py_uconnect.command import COMMAND_DEEP_REFRESH
+from .py_uconnect.client import Vehicle
+from .py_uconnect.command import COMMAND_DEEP_REFRESH
 
 from .const import DOMAIN
 from .coordinator import UconnectDataUpdateCoordinator
